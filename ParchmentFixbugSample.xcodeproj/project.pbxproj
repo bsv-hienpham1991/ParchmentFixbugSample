@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3711FE2699D7E200262008 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3711FD2699D7E200262008 /* UIView+Utils.swift */; };
 		0EB9EAF624596445008F3979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB9EAF524596445008F3979 /* AppDelegate.swift */; };
 		0EB9EAF824596445008F3979 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB9EAF724596445008F3979 /* SceneDelegate.swift */; };
 		0EB9EAFA24596445008F3979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB9EAF924596445008F3979 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3711FD2699D7E200262008 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		0EB9EAF224596445008F3979 /* ParchmentFixbugSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParchmentFixbugSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB9EAF524596445008F3979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EB9EAF724596445008F3979 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				0EB9EAFE24596449008F3979 /* Assets.xcassets */,
 				0EB9EB0024596449008F3979 /* LaunchScreen.storyboard */,
 				0EB9EB0324596449008F3979 /* Info.plist */,
+				0E3711FD2699D7E200262008 /* UIView+Utils.swift */,
 			);
 			path = ParchmentFixbugSample;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				0EB9EAFA24596445008F3979 /* ViewController.swift in Sources */,
 				0EB9EAF624596445008F3979 /* AppDelegate.swift in Sources */,
+				0E3711FE2699D7E200262008 /* UIView+Utils.swift in Sources */,
 				0EB9EB1924596532008F3979 /* SampleViewController.swift in Sources */,
 				0EB9EAF824596445008F3979 /* SceneDelegate.swift in Sources */,
 			);

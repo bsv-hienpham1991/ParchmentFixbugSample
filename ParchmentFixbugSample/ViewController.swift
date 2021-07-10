@@ -8,7 +8,6 @@
 
 import UIKit
 import Parchment
-import SnapKit
 
 class ViewController: UIViewController {
     private var viewControllers = [UIViewController]()
@@ -47,9 +46,7 @@ class ViewController: UIViewController {
         pagingViewController.willMove(toParent: self)
         container.addSubview(pagingViewController.view)
         pagingViewController.view.frame = .init(x: 0, y: 0, width: container.frame.width, height: container.frame.height)
-        pagingViewController.view.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
-        }
+        pagingViewController.view.autoPinEdgesToSuperview()
         addChild(pagingViewController)
         pagingViewController.didMove(toParent: self)
     }
@@ -105,9 +102,7 @@ extension UIViewController {
         content.didMove(toParent: nil)
 
         view.addSubview(content.view)
-        content.view.snp.makeConstraints { (make) in
-            make.edges.equalToSuperview()
-        }
+        content.view.autoPinEdgesToSuperview()
         content.willMove(toParent: self)
         addChild(content)
         content.didMove(toParent: self)
